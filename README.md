@@ -47,13 +47,14 @@ AppRegistry.registerComponent('DemoApp', () => DemoApp);
 ```
 ### Properties - Basic
 
-| Prop  | Default  | Type | Description |
-| :------------ |:---------------:| :---------------:| :-----|
-| topSpacing | 0 | `number` | Add or subtract additional spacing from keyboard height |
+| Prop            |                                                                Default                                                                 |          Type           | Description                                                                                                       |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------: | :---------------------: | :---------------------------------------------------------------------------------------------------------------- |
+| topSpacing      |                                                                   0                                                                    |        `number`         | Add or subtract additional spacing from keyboard height                                                           |
+| topExtraSpacing |                                                                   0                                                                    |        `number`         | Add or subtract additional spacing from keyboard height when the system information the keyboard height wrong     |
 | animationConfig | [A default animation](https://github.com/Andr3wHur5t/react-native-keyboard-spacer/blob/expose-layout-animations/KeyboardSpacer.js#L14) | `LayoutAnimationConfig` | [LayoutAnimation](https://facebook.github.io/react-native/docs/layoutanimation.html#content) configuration object |
 
 ### Properties - Methods
 
-| Prop  | Params  | Type | Description |
-| :------------ |:---------------:| :---------------:| :-----|
+| Prop     |    Params     |    Type    | Description                                                                                                                                                                          |
+| :------- | :-----------: | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | onToggle | `toggleState` | `function` | onToggle method is called when when keyboard toggles. Two parameters passed through, keyboardState (boolean, true if keyboard shown) and keyboardSpace (height occupied by keyboard) |
